@@ -16,7 +16,7 @@ def abc():
         num2=int(request.form['b'])
         o=num1+num2
         return render_template('d:num.html',total=o) 
-if __name__=='__main__':
+if (__name__)=='__main__':
     app.run()
 
 
